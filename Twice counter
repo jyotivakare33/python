@@ -1,0 +1,6 @@
+l = ["hate","love","peace","love","peace","hate","love","peace","love","peace"]
+from collections import Counter
+fruit = Counter(l)
+for k, v in fruit.items():
+    if v == 2:
+        print(k)
